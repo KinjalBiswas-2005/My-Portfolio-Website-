@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Pstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3y2YuTNlHFCJ00nuputMwtPN_lVoh0ge_Q&s" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ph ph-x-circle" onclick="closemenu()"></i>
+                </ul>
+                <i class="ph ph-dots-three-outline-vertical" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hello, I am <span>Kinjal Biswas</span><br>from Cuttack</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about---------------------------->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/passphoto.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am Kinjal Biswas a Computer science graduate aiming to join a progressive organization where I can utilize my technical skills, participate in cutting edge projects, and support organizational growth while expanding my professional capabilities.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>Java</span><br>Core Java</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Internship at IFIT Institute Cuttack</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>B.Tech in CSE From ABIT Cuttack</li>
+                            <li><span>2022</span><br>Higher Secondary Education(+2 science)from NSM City College Cuttack</li>
+                            <li><span>2020</span><br>10th from Joharimall High School Cuttack</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+    <!---------------------Services---------------------------> 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Web design is the process of creating the visual, user interface (UI), and user experience (UX) of websites to ensure they are visually appealing, functional, and user-friendly across devices. It focuses on front-end aesthetics like layout, color, typography, and navigation to enhance brand identity and user engagement.</p>
+                </div>
+
+                <div>
+                    <h2>Java</h2>
+                    <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!------------------Projects------------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://burst.shopifycdn.com/photos/macbook-air-on-desk.jpg?width=1000&format=pjpg&exif=0&iptc=00">
+                    <div class="layer">
+                        <h3>Animating Website</h3>
+                        <p>Animating websites using HTML, CSS, and JS! Created a website header section with animation. On this website design we will animate some elements with CSS animations and there will be some time delay in animation for all the website elements.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://burst.shopifycdn.com/photos/macbook-air-on-desk.jpg?width=1000&format=pjpg&exif=0&iptc=00">
+                    <div class="layer">
+                    <h3>Employee Management App</h3>
+                        <p>Employee management app is a comprehensive web application designed to streamline employee data mangement for organisation.It is built using Mern stack application.</p>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="https://burst.shopifycdn.com/photos/macbook-air-on-desk.jpg?width=1000&format=pjpg&exif=0&iptc=00">
+                    <div class="layer">
+                    <h3>Gym Website</h3>
+                        <p>Gym websites is created using frontend! Fitlife is a fully responsive fitness website,Responsive for all devices.</p>
+                        </div>
+                </div>
+            </div>
+            <a href="https://github.com/KinjalBiswas-2005" class="btn">View All Projects On GitHub <i class="ph ph-github-logo"></i></a>
+        </div>
+    </div>
+
+    <!-----------------------Contact---------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ph ph-paper-plane-tilt"></i> kinjalbiswas20@gmail.com</p>
+                    <p><i class="ph ph-phone"></i> 6371797993</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="ph ph-facebook-logo"></i></a>
+                        <a href=""><i class="ph ph-twitter-logo"></i></a>
+                        <a href=""><i class="ph ph-instagram-logo"></i></a>
+                        <a href=""><i class="ph ph-linkedin-logo"></i></a>
+                    </div>
+                    <a href="image/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email ID" placeholder="Your Email ID" required>
+                    <input type="message" name="Message" placeholder="Your Message" required>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="ph ph-copyright"></i>Kinjal Biswas-All Rights Reserved</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzzwC-epMD39ruEGvIOvAP4xoSUyTlN9MMAY6KPATaQNolsoYllcKEYSMdbMpzjlwsdfw/exec'
+	const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+	form.addEventListener("submit", e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 3000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+
+</script>
+</body>
+</html>
